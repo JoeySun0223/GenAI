@@ -73,7 +73,14 @@ def render_frames(sample, extrinsics, intrinsics, options={}, colors_overwrite=N
             res = renderer.render(sample, extr, intr, colors_overwrite=colors_overwrite)
             if 'color' not in rets: rets['color'] = []
             if 'depth' not in rets: rets['depth'] = []
+            if 'alpha' not in rets and 'alpha' in res: rets['alpha'] = []
+            
             rets['color'].append(np.clip(res['color'].detach().cpu().numpy().transpose(1, 2, 0) * 255, 0, 255).astype(np.uint8))
+            
+            # 如果有alpha通道，保存它
+            if 'alpha' in res:
+                rets['alpha'].append(res['alpha'].detach().cpu().numpy().transpose(1, 2, 0) * 255)
+            
             if 'percent_depth' in res:
                 rets['depth'].append(res['percent_depth'].detach().cpu().numpy())
             elif 'depth' in res:
@@ -88,10 +95,11 @@ def render_frames(sample, extrinsics, intrinsics, options={}, colors_overwrite=N
 
 
 def render_video(sample, resolution=512, bg_color=(0, 0, 0), num_frames=300, r=2, fov=40, **kwargs):
+    # 修改为固定的水平高度，只改变yaw角度进行360度旋转
     yaws = torch.linspace(0, 2 * 3.1415, num_frames)
-    pitch = 0.25 + 0.5 * torch.sin(torch.linspace(0, 2 * 3.1415, num_frames))
+    # 将pitch设为固定值，保持水平视角
+    pitch = [0.0] * num_frames  # 使用0.0作为水平视角
     yaws = yaws.tolist()
-    pitch = pitch.tolist()
     extrinsics, intrinsics = yaw_pitch_r_fov_to_extrinsics_intrinsics(yaws, pitch, r, fov)
     return render_frames(sample, extrinsics, intrinsics, {'resolution': resolution, 'bg_color': bg_color}, **kwargs)
 

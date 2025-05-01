@@ -215,14 +215,15 @@ def setup_lights():
     
     print("已设置灯光")
 
-def render_views(output_dir, angle_step=30, distance=4.0):
+def render_views(output_dir, angle_step=30, distance=4.0, obj=None):
     """
-    从360度环绕视角渲染对象，稍微改变高度以获得更好的视角
+    从360度环绕视角渲染对象，优化相机距离使模型尽可能大且完整
     
     参数:
         output_dir: 输出目录路径
         angle_step: 角度间隔，默认30度
-        distance: 相机与模型的距离
+        distance: 相机与模型的基础距离
+        obj: 渲染的目标对象，用于计算最佳距离
     """
     # 确保输出目录存在
     if not os.path.exists(output_dir):
@@ -233,16 +234,33 @@ def render_views(output_dir, angle_step=30, distance=4.0):
     camera_object = bpy.data.objects.new("Camera", camera_data)
     bpy.context.collection.objects.link(camera_object)
     bpy.context.scene.camera = camera_object
-
+    
+    # 设置相机视场角，使用较大的视场角确保捕捉完整模型
+    camera_data.lens_unit = 'FOV'
+    camera_data.angle = math.radians(55)  # 稍微减小视场角，让模型更大
+    
+    # 计算最佳固定距离
+    fixed_distance = distance
+    if obj:
+        # 获取对象尺寸
+        dimensions = obj.dimensions
+        # 计算对角线长度作为参考
+        diagonal = math.sqrt(dimensions.x**2 + dimensions.y**2 + dimensions.z**2)
+        
+        # 使用更小的安全系数，让模型在视野中更大
+        # 从2.5减小到1.8，但仍保持安全边界
+        fixed_distance = max(distance, diagonal * 1.8)
+        print(f"模型对角线尺寸: {diagonal:.4f}, 优化相机距离: {fixed_distance:.4f}")
+    
     # 渲染360度视图，每隔angle_step度一张
     for angle_deg in range(0, 360, angle_step):
         # 将角度转换为弧度
         angle_rad = math.radians(angle_deg)
         
         # 计算相机位置（水平圆形轨道，稍微抬高视角）
-        x = distance * math.cos(angle_rad)
-        y = distance * math.sin(angle_rad)
-        z = distance * 0.25  # 稍微抬高视角，为原距离的1/4
+        x = fixed_distance * math.cos(angle_rad)
+        y = fixed_distance * math.sin(angle_rad)
+        z = fixed_distance * 0.28  # 略微降低高度，使模型更居中
         
         # 设置相机位置
         camera_object.location = (x, y, z)
@@ -317,7 +335,7 @@ def normalize_model_size(obj, target_size=2.0):
 def get_model_path_from_args():
     """
     从命令行参数获取模型文件路径
-    格式: blender --background --python render_script.py -- model_filename
+    格式: blender --background --python render.py -- model_filename
     
     返回值:
         (model_path, model_name): 模型文件完整路径和不带扩展名的文件名
@@ -372,7 +390,7 @@ def get_model_path_from_args():
             raise ValueError("未提供模型名称")
     except (ValueError, IndexError, FileNotFoundError) as e:
         print(f"错误: {e}")
-        print("请正确指定模型名称，例如: blender --background --python render_script.py -- model_name")
+        print("请正确指定模型名称，例如: blender --background --python render.py -- model_name")
         print(f"模型应位于: {model_dir}")
         
         # 尝试列出OUTPUTS目录中的可用模型
@@ -408,7 +426,7 @@ if __name__ == "__main__":
         # 然后移动到原点
         move_bbox_to_origin(combined_object)
         
-        # 设置灯光
+        # 恢复使用原始灯光设置
         setup_lights()
 
         # 设置TRELLIS目录作为输出基础目录（脚本直接位于TRELLIS目录）
@@ -420,9 +438,9 @@ if __name__ == "__main__":
         
         print(f"渲染输出将保存至: {model_output_dir}")
         
-        # 进行360度渲染
-        camera_distance = 4.0  # 相机距离从8.0减小到4.0
-        render_views(model_output_dir, angle_step=30, distance=camera_distance)
+        # 进行360度渲染，传入模型对象用于计算适应性距离
+        camera_distance = 4.0
+        render_views(model_output_dir, angle_step=30, distance=camera_distance, obj=combined_object)
 
         # 保存最终模型到RENDERED_VIEWS目录
         save_combined_object(rendered_views_dir, model_name)
