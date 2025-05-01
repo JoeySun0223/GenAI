@@ -23,10 +23,6 @@ wheels/
 .installed.cfg
 *.egg
 
-# 输出目录
-OUTPUTS/
-SVG/
-assets/
 
 # 虚拟环境
 venv/
