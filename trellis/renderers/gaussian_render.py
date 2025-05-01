@@ -185,18 +185,24 @@ class GaussianRenderer:
         Returns:
             edict containing:
                 color (torch.Tensor): (3, H, W) rendered color image
+                alpha (torch.Tensor): (1, H, W) alpha channel for transparency
         """
         resolution = self.rendering_options["resolution"]
         near = self.rendering_options["near"]
         far = self.rendering_options["far"]
         ssaa = self.rendering_options["ssaa"]
         
-        if self.rendering_options["bg_color"] == 'random':
+        if self.rendering_options["bg_color"] is None:
+            self.bg_color = torch.zeros(3, dtype=torch.float32, device="cuda")
+            transparent_bg = True
+        elif self.rendering_options["bg_color"] == 'random':
             self.bg_color = torch.zeros(3, dtype=torch.float32, device="cuda")
             if np.random.rand() < 0.5:
                 self.bg_color += 1
+            transparent_bg = False
         else:
             self.bg_color = torch.tensor(self.rendering_options["bg_color"], dtype=torch.float32, device="cuda")
+            transparent_bg = False
 
         view = extrinsics
         perspective = intrinsics_to_projection(intrinsics, near, far)
@@ -228,4 +234,10 @@ class GaussianRenderer:
         ret = edict({
             'color': render_ret['render']
         })
+        
+        if transparent_bg:
+            rgb = render_ret['render']
+            alpha = ((rgb[0] + rgb[1] + rgb[2]) > 0).float().unsqueeze(0)
+            ret['alpha'] = alpha
+        
         return ret
