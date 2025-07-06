@@ -1,0 +1,12 @@
+
+{
+    "name": "SparseStructureEncoder",
+    "args": {
+        "in_channels": 1,
+        "latent_channels": 8,
+        "num_res_blocks": 2,
+        "num_res_blocks_middle": 2,
+        "channels": [32, 128, 512],
+        "use_fp16": true
+    }
+}
