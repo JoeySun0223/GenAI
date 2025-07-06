@@ -1,5 +1,5 @@
 import os
-# os.environ['ATTN_BACKEND'] = 'xformers'   # Can be 'flash-attn' or 'xformers', default is 'flash-attn'
+#os.environ['ATTN_BACKEND'] = 'xformers'   # 使用 xformers 替代默认的 flash-attn
 #os.environ['ATTN_BACKEND'] = 'flash-attn'   # 使用flash-attn可能提供更好的性能
 os.environ['SPCONV_ALGO'] = 'native'          # 改回'auto'可能在某些情况下提供更好的精度
                                             # 'auto' is faster but will do benchmarking at the beginning.
@@ -13,9 +13,10 @@ from trellis.pipelines import TrellisImageTo3DPipeline
 from trellis.utils import render_utils, postprocessing_utils
 import torch
 import numpy as np
+from scipy.ndimage import binary_dilation
 
 # 创建输出目录
-output_dir = "OUTPUTS"
+output_dir = "MultiView"
 os.makedirs(output_dir, exist_ok=True)
 print(f"输出文件将保存至: {output_dir}/")
 
@@ -28,10 +29,10 @@ if len(sys.argv) > 1:
         file_name = f"{file_name}.png"  # 默认添加.png扩展名
     
     # 构建完整路径
-    image_path = f"assets/example_image/{file_name}"
+    image_path = f"example_image/{file_name}"
 else:
     # 默认图像路径
-    image_path = "assets/example_image/redcar.png"
+    image_path = "example_image/bluecar.png"
 
 print(f"处理图像: {image_path}")
 
@@ -84,8 +85,9 @@ extrinsics, intrinsics = render_utils.yaw_pitch_r_fov_to_extrinsics_intrinsics(y
 render_results = render_utils.render_frames(
     outputs['gaussian'][0], 
     extrinsics, 
-    intrinsics, 
-    {'resolution': 512, 'bg_color': None}  # 设置为None以启用透明背景
+    intrinsics,
+    {'resolution': 512, 'bg_color': None}  # 设置为 None 实现透明背景 
+    #{'resolution': 512, 'bg_color': [0, 1, 0]}  # 将背景色改为亮绿色
 )
 
 # 保存每张图片
@@ -94,24 +96,32 @@ for i, img_data in enumerate(render_results['color']):
     angle = angles_degrees[i]
     img_path = osp.join(output_dir, f"{base_filename}_{angle:03d}deg.png")  # 使用3位数格式化
     
-    # 如果有alpha通道，创建RGBA图像
+    # 保存带透明通道的图像
     if 'alpha' in render_results:
-        alpha_data = render_results['alpha'][i]
-        rgba_img = np.zeros((img_data.shape[0], img_data.shape[1], 4), dtype=np.uint8)
-        rgba_img[:,:,0:3] = img_data
-        rgba_img[:,:,3] = alpha_data.squeeze()
-        Image.fromarray(rgba_img).save(img_path)
+        # 确保数据类型和格式正确
+        rgb = img_data.astype(np.uint8)  # RGB 通道转换为 uint8
+        alpha = render_results['alpha'][i]  # 获取原始 alpha 值
+        
+        # 处理 alpha 通道
+        if alpha.shape[-1] == 1:
+            alpha = alpha.squeeze(-1)
+        
+        # 创建二值化的 alpha 通道：物体部分完全不透明，背景完全透明
+        alpha_binary = np.zeros_like(alpha, dtype=np.uint8)
+        alpha_binary[alpha > 0.1] = 255  # 设置阈值，大于阈值的设为完全不透明
+        
+        # 创建 RGBA 图像
+        rgba = np.dstack([rgb, alpha_binary])
+        Image.fromarray(rgba, 'RGBA').save(img_path)
     else:
-        # 否则保存为RGB图像
-        Image.fromarray(img_data).save(img_path)
-    
+        Image.fromarray(img_data.astype(np.uint8)).save(img_path)
     print(f"已保存图片: {img_path}")
 
-# 注释掉视频生成代码
+# 视频生成代码
 #video = render_utils.render_video(outputs['gaussian'][0])['color']
 #imageio.mimsave(osp.join(output_dir, f"{base_filename}_gs.mp4"), video, fps=30)
 
-# 注释掉GLB文件生成和保存的代码
+# GLB文件生成和保存的代码
 # GLB files can be extracted from the outputs
 #glb = postprocessing_utils.to_glb(
 #    outputs['gaussian'][0],
@@ -127,7 +137,7 @@ for i, img_data in enumerate(render_results['color']):
 #glb.export(output_glb_path)
 #print(f"已保存GLB文件: {output_glb_path}")
 
-# 注释掉PLY文件保存的代码
+# PLY文件保存的代码
 # Save Gaussians as PLY files
 #output_ply_path = osp.join(output_dir, f"{base_filename}.ply")
 #outputs['gaussian'][0].save_ply(output_ply_path)

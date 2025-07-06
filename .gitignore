@@ -1,12 +1,9 @@
-TRELLIS-image-large/
-
 # Python
 __pycache__/
 *.py[cod]
 *$py.class
 *.so
 .Python
-env/
 build/
 develop-eggs/
 dist/
@@ -22,18 +19,37 @@ wheels/
 *.egg-info/
 .installed.cfg
 *.egg
+MANIFEST
 
-
-# 虚拟环境
+# Virtual environments
 venv/
+env/
 ENV/
 
 # IDE
-.idea/
 .vscode/
+.idea/
 *.swp
 *.swo
 
-# 操作系统
+# OS
 .DS_Store
 Thumbs.db
+
+# Large files and directories
+checkpoints/
+*.pth
+*.ckpt
+*.safetensors
+
+# Output directories
+SVG_OUTPUT/
+memory_output_parts/
+example_image/
+
+# Embedded git repositories (will be handled separately)
+# TRELLIS-image-large/
+
+# Temporary files
+*.tmp
+*.temp 
