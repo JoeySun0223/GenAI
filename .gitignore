@@ -36,7 +36,11 @@ ENV/
 .DS_Store
 Thumbs.db
 
-
+# Large files and directories
+checkpoints/
+*.pth
+*.ckpt
+*.safetensors
 
 
 
