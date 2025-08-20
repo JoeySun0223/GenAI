@@ -1,0 +1,23 @@
+# Flux LoRA+ Style Configuration File
+
+model:
+  base_model: "black-forest-labs/FLUX.1-dev"
+  lora_path: "models/lora_weights.safetensors"  # LoRA weights in models directory
+
+processing:
+  strength: 0.2                    # Processing strength
+  guidance_scale: 4.0              # Guidance scale
+  num_inference_steps: 4           # Number of inference steps
+  style_weight: 0.5                # Style weight
+  output_size: 1024                # Output size
+
+paths:
+  input_dir: "input/your_images"   # Input image directory
+  style_dir: "input/your_images/ori_svg"  # Style reference directory
+  output_dir: "output"             # Output directory (simplified)
+
+# Advanced settings
+advanced:
+  enable_memory_efficient: true    # Enable memory optimization
+  enable_attention_slicing: true   # Enable attention slicing
+  enable_xformers: true            # Enable xformers optimization
