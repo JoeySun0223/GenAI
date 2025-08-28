@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" version="1.1" width="512" height="512">
+<ns0:path d="M0 0 C2.97 0 5.94 0 9 0 C9 10.23 9 20.46 9 31 C4.545 30.01 4.545 30.01 0 29 C-0.922 25.314 -1.05 22.877 -0.879 19.141 C-0.831 18.026 -0.782 16.911 -0.732 15.762 C-0.648 14.023 -0.648 14.023 -0.562 12.25 C-0.51 11.076 -0.458 9.901 -0.404 8.691 C-0.275 5.794 -0.14 2.897 0 0 Z " fill="#F2F0EA" transform="translate(104,275)" />
+<ns0:path d="M0 0 C3 1 3 1 3 1 Z " fill="#C28F4A" transform="translate(128,307)" />
+<ns0:path d="M0 0 C3 1 3 1 3 1 Z " fill="#868FAD" transform="translate(139,305)" />
+<ns0:path d="M0 0 C2 1 2 1 2 1 Z " fill="#C78F55" transform="translate(136,306)" />
+<ns0:path d="" fill="#B9893D" transform="translate(0,0)" />
+</ns0:svg>

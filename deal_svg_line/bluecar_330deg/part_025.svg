@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" version="1.1" width="512" height="512" stroke="black" stroke-width="2.0" stroke-opacity="1">
+<ns0:path d="M0 0 C1.98 0 3.96 0 6 0 C7.005 3.015 7.103 5.042 7.062 8.188 C7.053 9.089 7.044 9.99 7.035 10.918 C7.024 11.605 7.012 12.292 7 13 C4.69 12.67 2.38 12.34 0 12 C-1.167 8.499 -1.134 5.673 -1 2 C-0.67 1.34 -0.34 0.68 0 0 Z " fill="none" transform="translate(316,160)" stroke="black" stroke-width="2.0" stroke-opacity="1" />
+<ns0:path d="M0 0 C4 1 4 1 4 1 Z " fill="none" transform="translate(212,157)" stroke="black" stroke-width="2.0" stroke-opacity="1" />
+<ns0:path d="M0 0 C2 1 2 1 2 1 Z " fill="none" transform="translate(200,158)" stroke="black" stroke-width="2.0" stroke-opacity="1" />
+<ns0:path d="" fill="none" transform="translate(0,0)" stroke="black" stroke-width="2.0" stroke-opacity="1" />
+<ns0:path d="" fill="none" transform="translate(0,0)" stroke="black" stroke-width="2.0" stroke-opacity="1" />
+<ns0:path d="" fill="none" transform="translate(0,0)" stroke="black" stroke-width="2.0" stroke-opacity="1" />
+<ns0:path d="" fill="none" transform="translate(0,0)" stroke="black" stroke-width="2.0" stroke-opacity="1" />
+</ns0:svg>

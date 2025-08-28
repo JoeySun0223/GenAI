@@ -1,0 +1,809 @@
+[
+  {
+    "file": "part_000.svg",
+    "colors": [
+      {
+        "color": "#444549",
+        "area": 80.0,
+        "percent": 100.0,
+        "decision": "KEEP",
+        "reason": "percent 100.0000% ≥ small 8.0% -> KEEP",
+        "nearest_larger_color": null,
+        "deltaE_to_nearest": null
+      }
+    ],
+    "kept_colors": [
+      "#444549"
+    ],
+    "removed_elements_by_color": 0,
+    "cleanup": {
+      "scanned_paths": 0,
+      "removed_micro_strokes": 0,
+      "details": []
+    }
+  },
+  {
+    "file": "part_001.svg",
+    "colors": [
+      {
+        "color": "#3F3D40",
+        "area": 127.93775645703124,
+        "percent": 100.0,
+        "decision": "KEEP",
+        "reason": "percent 100.0000% ≥ small 8.0% -> KEEP",
+        "nearest_larger_color": null,
+        "deltaE_to_nearest": null
+      }
+    ],
+    "kept_colors": [
+      "#3F3D40"
+    ],
+    "removed_elements_by_color": 0,
+    "cleanup": {
+      "scanned_paths": 0,
+      "removed_micro_strokes": 0,
+      "details": []
+    }
+  },
+  {
+    "file": "part_002.svg",
+    "colors": [
+      {
+        "color": "#EEF2F4",
+        "area": 160.97182500000002,
+        "percent": 100.0,
+        "decision": "KEEP",
+        "reason": "percent 100.0000% ≥ small 8.0% -> KEEP",
+        "nearest_larger_color": null,
+        "deltaE_to_nearest": null
+      }
+    ],
+    "kept_colors": [
+      "#EEF2F4"
+    ],
+    "removed_elements_by_color": 0,
+    "cleanup": {
+      "scanned_paths": 0,
+      "removed_micro_strokes": 0,
+      "details": []
+    }
+  },
+  {
+    "file": "part_003.svg",
+    "colors": [
+      {
+        "color": "#EA9E0A",
+        "area": 273.702928875,
+        "percent": 100.0,
+        "decision": "KEEP",
+        "reason": "percent 100.0000% ≥ small 8.0% -> KEEP",
+        "nearest_larger_color": null,
+        "deltaE_to_nearest": null
+      }
+    ],
+    "kept_colors": [
+      "#EA9E0A"
+    ],
+    "removed_elements_by_color": 0,
+    "cleanup": {
+      "scanned_paths": 0,
+      "removed_micro_strokes": 0,
+      "details": []
+    }
+  },
+  {
+    "file": "part_004.svg",
+    "colors": [
+      {
+        "color": "#7F7F82",
+        "area": 309.3573534921875,
+        "percent": 100.0,
+        "decision": "KEEP",
+        "reason": "percent 100.0000% ≥ small 8.0% -> KEEP",
+        "nearest_larger_color": null,
+        "deltaE_to_nearest": null
+      }
+    ],
+    "kept_colors": [
+      "#7F7F82"
+    ],
+    "removed_elements_by_color": 0,
+    "cleanup": {
+      "scanned_paths": 0,
+      "removed_micro_strokes": 0,
+      "details": []
+    }
+  },
+  {
+    "file": "part_005.svg",
+    "colors": [
+      {
+        "color": "#FBFBFA",
+        "area": 360.0,
+        "percent": 100.0,
+        "decision": "KEEP",
+        "reason": "percent 100.0000% ≥ small 8.0% -> KEEP",
+        "nearest_larger_color": null,
+        "deltaE_to_nearest": null
+      }
+    ],
+    "kept_colors": [
+      "#FBFBFA"
+    ],
+    "removed_elements_by_color": 0,
+    "cleanup": {
+      "scanned_paths": 0,
+      "removed_micro_strokes": 0,
+      "details": []
+    }
+  },
+  {
+    "file": "part_006.svg",
+    "colors": [
+      {
+        "color": "#00A7DA",
+        "area": 416.0688939375,
+        "percent": 100.0,
+        "decision": "KEEP",
+        "reason": "percent 100.0000% ≥ small 8.0% -> KEEP",
+        "nearest_larger_color": null,
+        "deltaE_to_nearest": null
+      }
+    ],
+    "kept_colors": [
+      "#00A7DA"
+    ],
+    "removed_elements_by_color": 0,
+    "cleanup": {
+      "scanned_paths": 0,
+      "removed_micro_strokes": 0,
+      "details": []
+    }
+  },
+  {
+    "file": "part_007.svg",
+    "colors": [
+      {
+        "color": "#00ABEC",
+        "area": 490.2648358867187,
+        "percent": 77.83199469740552,
+        "decision": "KEEP",
+        "reason": "percent 77.8320% ≥ small 8.0% -> KEEP",
+        "nearest_larger_color": null,
+        "deltaE_to_nearest": null
+      },
+      {
+        "color": "#008FDA",
+        "area": 98.23783106835937,
+        "percent": 15.595747006754268,
+        "decision": "KEEP",
+        "reason": "percent 15.5957% ≥ small 8.0% -> KEEP",
+        "nearest_larger_color": null,
+        "deltaE_to_nearest": null
+      },
+      {
+        "color": "#009DDF",
+        "area": 41.398748,
+        "percent": 6.5722582958402125,
+        "decision": "DROP",
+        "reason": "0.1% ≤ percent 6.5723% < 8.0%, ΔE(#009DDF vs #00ABEC)=5.60 ≤ 30.0 -> DROP",
+        "nearest_larger_color": "#00ABEC",
+        "deltaE_to_nearest": 5.5988
+      }
+    ],
+    "kept_colors": [
+      "#008FDA",
+      "#00ABEC"
+    ],
+    "removed_elements_by_color": 1,
+    "cleanup": {
+      "scanned_paths": 0,
+      "removed_micro_strokes": 0,
+      "details": []
+    }
+  },
+  {
+    "file": "part_008.svg",
+    "colors": [
+      {
+        "color": "#272C2E",
+        "area": 158.447265625,
+        "percent": 100.0,
+        "decision": "KEEP",
+        "reason": "percent 100.0000% ≥ small 8.0% -> KEEP",
+        "nearest_larger_color": null,
+        "deltaE_to_nearest": null
+      }
+    ],
+    "kept_colors": [
+      "#272C2E"
+    ],
+    "removed_elements_by_color": 0,
+    "cleanup": {
+      "scanned_paths": 0,
+      "removed_micro_strokes": 0,
+      "details": []
+    }
+  },
+  {
+    "file": "part_009.svg",
+    "colors": [
+      {
+        "color": "#FBAA06",
+        "area": 615.4508685546875,
+        "percent": 100.0,
+        "decision": "KEEP",
+        "reason": "percent 100.0000% ≥ small 8.0% -> KEEP",
+        "nearest_larger_color": null,
+        "deltaE_to_nearest": null
+      }
+    ],
+    "kept_colors": [
+      "#FBAA06"
+    ],
+    "removed_elements_by_color": 0,
+    "cleanup": {
+      "scanned_paths": 0,
+      "removed_micro_strokes": 0,
+      "details": []
+    }
+  },
+  {
+    "file": "part_010.svg",
+    "colors": [
+      {
+        "color": "#8D8E90",
+        "area": 602.92323859375,
+        "percent": 100.0,
+        "decision": "KEEP",
+        "reason": "percent 100.0000% ≥ small 8.0% -> KEEP",
+        "nearest_larger_color": null,
+        "deltaE_to_nearest": null
+      }
+    ],
+    "kept_colors": [
+      "#8D8E90"
+    ],
+    "removed_elements_by_color": 0,
+    "cleanup": {
+      "scanned_paths": 0,
+      "removed_micro_strokes": 0,
+      "details": []
+    }
+  },
+  {
+    "file": "part_011.svg",
+    "colors": [
+      {
+        "color": "#737475",
+        "area": 780.4049631679688,
+        "percent": 100.0,
+        "decision": "KEEP",
+        "reason": "percent 100.0000% ≥ small 8.0% -> KEEP",
+        "nearest_larger_color": null,
+        "deltaE_to_nearest": null
+      }
+    ],
+    "kept_colors": [
+      "#737475"
+    ],
+    "removed_elements_by_color": 0,
+    "cleanup": {
+      "scanned_paths": 0,
+      "removed_micro_strokes": 0,
+      "details": []
+    }
+  },
+  {
+    "file": "part_012.svg",
+    "colors": [
+      {
+        "color": "#1A1E22",
+        "area": 855.1090891479491,
+        "percent": 100.0,
+        "decision": "KEEP",
+        "reason": "percent 100.0000% ≥ small 8.0% -> KEEP",
+        "nearest_larger_color": null,
+        "deltaE_to_nearest": null
+      }
+    ],
+    "kept_colors": [
+      "#1A1E22"
+    ],
+    "removed_elements_by_color": 0,
+    "cleanup": {
+      "scanned_paths": 0,
+      "removed_micro_strokes": 0,
+      "details": []
+    }
+  },
+  {
+    "file": "part_013.svg",
+    "colors": [
+      {
+        "color": "#707274",
+        "area": 1007.4060914082033,
+        "percent": 100.0,
+        "decision": "KEEP",
+        "reason": "percent 100.0000% ≥ small 8.0% -> KEEP",
+        "nearest_larger_color": null,
+        "deltaE_to_nearest": null
+      }
+    ],
+    "kept_colors": [
+      "#707274"
+    ],
+    "removed_elements_by_color": 0,
+    "cleanup": {
+      "scanned_paths": 0,
+      "removed_micro_strokes": 0,
+      "details": []
+    }
+  },
+  {
+    "file": "part_014.svg",
+    "colors": [
+      {
+        "color": "#8B8E92",
+        "area": 1039.298963046875,
+        "percent": 100.0,
+        "decision": "KEEP",
+        "reason": "percent 100.0000% ≥ small 8.0% -> KEEP",
+        "nearest_larger_color": null,
+        "deltaE_to_nearest": null
+      }
+    ],
+    "kept_colors": [
+      "#8B8E92"
+    ],
+    "removed_elements_by_color": 0,
+    "cleanup": {
+      "scanned_paths": 0,
+      "removed_micro_strokes": 0,
+      "details": []
+    }
+  },
+  {
+    "file": "part_015.svg",
+    "colors": [
+      {
+        "color": "#020304",
+        "area": 1203.7341058746947,
+        "percent": 100.0,
+        "decision": "KEEP",
+        "reason": "percent 100.0000% ≥ small 8.0% -> KEEP",
+        "nearest_larger_color": null,
+        "deltaE_to_nearest": null
+      }
+    ],
+    "kept_colors": [
+      "#020304"
+    ],
+    "removed_elements_by_color": 0,
+    "cleanup": {
+      "scanned_paths": 0,
+      "removed_micro_strokes": 0,
+      "details": []
+    }
+  },
+  {
+    "file": "part_016.svg",
+    "colors": [
+      {
+        "color": "#FCFBF8",
+        "area": 1288.8502475625,
+        "percent": 100.0,
+        "decision": "KEEP",
+        "reason": "percent 100.0000% ≥ small 8.0% -> KEEP",
+        "nearest_larger_color": null,
+        "deltaE_to_nearest": null
+      }
+    ],
+    "kept_colors": [
+      "#FCFBF8"
+    ],
+    "removed_elements_by_color": 0,
+    "cleanup": {
+      "scanned_paths": 0,
+      "removed_micro_strokes": 0,
+      "details": []
+    }
+  },
+  {
+    "file": "part_017.svg",
+    "colors": [
+      {
+        "color": "#111317",
+        "area": 1422.7049720569455,
+        "percent": 100.0,
+        "decision": "KEEP",
+        "reason": "percent 100.0000% ≥ small 8.0% -> KEEP",
+        "nearest_larger_color": null,
+        "deltaE_to_nearest": null
+      }
+    ],
+    "kept_colors": [
+      "#111317"
+    ],
+    "removed_elements_by_color": 0,
+    "cleanup": {
+      "scanned_paths": 0,
+      "removed_micro_strokes": 0,
+      "details": []
+    }
+  },
+  {
+    "file": "part_018.svg",
+    "colors": [
+      {
+        "color": "#8C8E90",
+        "area": 1463.6861321190795,
+        "percent": 100.0,
+        "decision": "KEEP",
+        "reason": "percent 100.0000% ≥ small 8.0% -> KEEP",
+        "nearest_larger_color": null,
+        "deltaE_to_nearest": null
+      }
+    ],
+    "kept_colors": [
+      "#8C8E90"
+    ],
+    "removed_elements_by_color": 0,
+    "cleanup": {
+      "scanned_paths": 0,
+      "removed_micro_strokes": 0,
+      "details": []
+    }
+  },
+  {
+    "file": "part_019.svg",
+    "colors": [
+      {
+        "color": "#22222E",
+        "area": 1624.8141062128905,
+        "percent": 91.6308106284194,
+        "decision": "KEEP",
+        "reason": "percent 91.6308% ≥ small 8.0% -> KEEP",
+        "nearest_larger_color": null,
+        "deltaE_to_nearest": null
+      },
+      {
+        "color": "#0E0B18",
+        "area": 148.40397957031263,
+        "percent": 8.36918937158059,
+        "decision": "KEEP",
+        "reason": "percent 8.3692% ≥ small 8.0% -> KEEP",
+        "nearest_larger_color": null,
+        "deltaE_to_nearest": null
+      }
+    ],
+    "kept_colors": [
+      "#22222E",
+      "#0E0B18"
+    ],
+    "removed_elements_by_color": 0,
+    "cleanup": {
+      "scanned_paths": 0,
+      "removed_micro_strokes": 0,
+      "details": []
+    }
+  },
+  {
+    "file": "part_020.svg",
+    "colors": [
+      {
+        "color": "#000102",
+        "area": 1834.4695911279143,
+        "percent": 100.0,
+        "decision": "KEEP",
+        "reason": "percent 100.0000% ≥ small 8.0% -> KEEP",
+        "nearest_larger_color": null,
+        "deltaE_to_nearest": null
+      }
+    ],
+    "kept_colors": [
+      "#000102"
+    ],
+    "removed_elements_by_color": 0,
+    "cleanup": {
+      "scanned_paths": 0,
+      "removed_micro_strokes": 0,
+      "details": []
+    }
+  },
+  {
+    "file": "part_021.svg",
+    "colors": [
+      {
+        "color": "#929496",
+        "area": 2307.1378594267585,
+        "percent": 100.0,
+        "decision": "KEEP",
+        "reason": "percent 100.0000% ≥ small 8.0% -> KEEP",
+        "nearest_larger_color": null,
+        "deltaE_to_nearest": null
+      }
+    ],
+    "kept_colors": [
+      "#929496"
+    ],
+    "removed_elements_by_color": 0,
+    "cleanup": {
+      "scanned_paths": 0,
+      "removed_micro_strokes": 0,
+      "details": []
+    }
+  },
+  {
+    "file": "part_023.svg",
+    "colors": [
+      {
+        "color": "#242232",
+        "area": 2707.1249939217537,
+        "percent": 87.79778779805851,
+        "decision": "KEEP",
+        "reason": "percent 87.7978% ≥ small 8.0% -> KEEP",
+        "nearest_larger_color": null,
+        "deltaE_to_nearest": null
+      },
+      {
+        "color": "#0E0C17",
+        "area": 293.5661827441407,
+        "percent": 9.52097205527153,
+        "decision": "KEEP",
+        "reason": "percent 9.5210% ≥ small 8.0% -> KEEP",
+        "nearest_larger_color": null,
+        "deltaE_to_nearest": null
+      },
+      {
+        "color": "#09070E",
+        "area": 82.67238159179688,
+        "percent": 2.6812401466699685,
+        "decision": "DROP",
+        "reason": "0.1% ≤ percent 2.6812% < 8.0%, ΔE(#09070E vs #0E0C17)=3.84 ≤ 30.0 -> DROP",
+        "nearest_larger_color": "#0E0C17",
+        "deltaE_to_nearest": 3.8372
+      }
+    ],
+    "kept_colors": [
+      "#0E0C17",
+      "#242232"
+    ],
+    "removed_elements_by_color": 1,
+    "cleanup": {
+      "scanned_paths": 0,
+      "removed_micro_strokes": 0,
+      "details": []
+    }
+  },
+  {
+    "file": "part_024.svg",
+    "colors": [
+      {
+        "color": "#0058BC",
+        "area": 2864.313076311463,
+        "percent": 100.0,
+        "decision": "KEEP",
+        "reason": "percent 100.0000% ≥ small 8.0% -> KEEP",
+        "nearest_larger_color": null,
+        "deltaE_to_nearest": null
+      }
+    ],
+    "kept_colors": [
+      "#0058BC"
+    ],
+    "removed_elements_by_color": 0,
+    "cleanup": {
+      "scanned_paths": 0,
+      "removed_micro_strokes": 0,
+      "details": []
+    }
+  },
+  {
+    "file": "part_025.svg",
+    "colors": [
+      {
+        "color": "#757576",
+        "area": 3022.1024385664055,
+        "percent": 100.0,
+        "decision": "KEEP",
+        "reason": "percent 100.0000% ≥ small 8.0% -> KEEP",
+        "nearest_larger_color": null,
+        "deltaE_to_nearest": null
+      }
+    ],
+    "kept_colors": [
+      "#757576"
+    ],
+    "removed_elements_by_color": 0,
+    "cleanup": {
+      "scanned_paths": 0,
+      "removed_micro_strokes": 0,
+      "details": []
+    }
+  },
+  {
+    "file": "part_027.svg",
+    "colors": [
+      {
+        "color": "#252434",
+        "area": 3791.09260124231,
+        "percent": 90.3571661621569,
+        "decision": "KEEP",
+        "reason": "percent 90.3572% ≥ small 8.0% -> KEEP",
+        "nearest_larger_color": null,
+        "deltaE_to_nearest": null
+      },
+      {
+        "color": "#0C0A14",
+        "area": 404.58192272265626,
+        "percent": 9.642833837843103,
+        "decision": "KEEP",
+        "reason": "percent 9.6428% ≥ small 8.0% -> KEEP",
+        "nearest_larger_color": null,
+        "deltaE_to_nearest": null
+      }
+    ],
+    "kept_colors": [
+      "#0C0A14",
+      "#252434"
+    ],
+    "removed_elements_by_color": 0,
+    "cleanup": {
+      "scanned_paths": 0,
+      "removed_micro_strokes": 0,
+      "details": []
+    }
+  },
+  {
+    "file": "part_028.svg",
+    "colors": [
+      {
+        "color": "#282E36",
+        "area": 6129.622755277223,
+        "percent": 99.37966691795278,
+        "decision": "KEEP",
+        "reason": "percent 99.3797% ≥ small 8.0% -> KEEP",
+        "nearest_larger_color": null,
+        "deltaE_to_nearest": null
+      },
+      {
+        "color": "#181C21",
+        "area": 38.26142603906249,
+        "percent": 0.6203330820472237,
+        "decision": "DROP",
+        "reason": "0.1% ≤ percent 0.6203% < 8.0%, ΔE(#181C21 vs #282E36)=8.82 ≤ 30.0 -> DROP",
+        "nearest_larger_color": "#282E36",
+        "deltaE_to_nearest": 8.8238
+      }
+    ],
+    "kept_colors": [
+      "#282E36"
+    ],
+    "removed_elements_by_color": 1,
+    "cleanup": {
+      "scanned_paths": 0,
+      "removed_micro_strokes": 0,
+      "details": []
+    }
+  },
+  {
+    "file": "part_029.svg",
+    "colors": [
+      {
+        "color": "#293038",
+        "area": 8547.732729380186,
+        "percent": 99.24784062811842,
+        "decision": "KEEP",
+        "reason": "percent 99.2478% ≥ small 8.0% -> KEEP",
+        "nearest_larger_color": null,
+        "deltaE_to_nearest": null
+      },
+      {
+        "color": "#1A1F25",
+        "area": 40.219,
+        "percent": 0.46698335436977767,
+        "decision": "DROP",
+        "reason": "0.1% ≤ percent 0.4670% < 8.0%, ΔE(#1A1F25 vs #293038)=8.12 ≤ 30.0 -> DROP",
+        "nearest_larger_color": "#293038",
+        "deltaE_to_nearest": 8.1168
+      },
+      {
+        "color": "#12161A",
+        "area": 24.560820296875004,
+        "percent": 0.285176017511823,
+        "decision": "DROP",
+        "reason": "0.1% ≤ percent 0.2852% < 8.0%, ΔE(#12161A vs #1A1F25)=4.71 ≤ 30.0 -> DROP",
+        "nearest_larger_color": "#1A1F25",
+        "deltaE_to_nearest": 4.7083
+      }
+    ],
+    "kept_colors": [
+      "#293038"
+    ],
+    "removed_elements_by_color": 2,
+    "cleanup": {
+      "scanned_paths": 0,
+      "removed_micro_strokes": 0,
+      "details": []
+    }
+  },
+  {
+    "file": "part_030.svg",
+    "colors": [
+      {
+        "color": "#005BBA",
+        "area": 42504.935616772476,
+        "percent": 99.2963402742968,
+        "decision": "KEEP",
+        "reason": "percent 99.2963% ≥ small 8.0% -> KEEP",
+        "nearest_larger_color": null,
+        "deltaE_to_nearest": null
+      },
+      {
+        "color": "#4D4F51",
+        "area": 161.18294432812502,
+        "percent": 0.37654160050304847,
+        "decision": "KEEP",
+        "reason": "0.1% ≤ percent 0.3765% < 8.0% (nearest=#005BBA, ΔE=57.26) -> KEEP",
+        "nearest_larger_color": "#005BBA",
+        "deltaE_to_nearest": 57.2564
+      },
+      {
+        "color": "#03347C",
+        "area": 89.02665971679687,
+        "percent": 0.2079763530622739,
+        "decision": "DROP",
+        "reason": "0.1% ≤ percent 0.2080% < 8.0%, ΔE(#03347C vs #005BBA)=19.79 ≤ 30.0 -> DROP",
+        "nearest_larger_color": "#005BBA",
+        "deltaE_to_nearest": 19.7937
+      },
+      {
+        "color": "#25609D",
+        "area": 27.0,
+        "percent": 0.0630750558377058,
+        "decision": "DROP",
+        "reason": "percent 0.0631% < tiny 0.1% -> DROP",
+        "nearest_larger_color": null,
+        "deltaE_to_nearest": null
+      },
+      {
+        "color": "#474B4F",
+        "area": 13.0,
+        "percent": 0.03036947132926575,
+        "decision": "DROP",
+        "reason": "percent 0.0304% < tiny 0.1% -> DROP",
+        "nearest_larger_color": null,
+        "deltaE_to_nearest": null
+      },
+      {
+        "color": "#4873A1",
+        "area": 9.0,
+        "percent": 0.0210250186125686,
+        "decision": "DROP",
+        "reason": "percent 0.0210% < tiny 0.1% -> DROP",
+        "nearest_larger_color": null,
+        "deltaE_to_nearest": null
+      },
+      {
+        "color": "#0259BC",
+        "area": 2.0,
+        "percent": 0.004672226358348577,
+        "decision": "DROP",
+        "reason": "percent 0.0047% < tiny 0.1% -> DROP",
+        "nearest_larger_color": null,
+        "deltaE_to_nearest": null
+      }
+    ],
+    "kept_colors": [
+      "#005BBA",
+      "#4D4F51"
+    ],
+    "removed_elements_by_color": 5,
+    "cleanup": {
+      "scanned_paths": 0,
+      "removed_micro_strokes": 0,
+      "details": []
+    }
+  }
+]
