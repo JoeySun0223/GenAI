@@ -155,13 +155,13 @@ class SVGCleaner:
     
     def batch_process_beforecombine_svg(self):
         """
-        批量处理deal_svg文件夹中的SVG文件
-        输出到deal_svg_line文件夹
+        批量处理SVG_Segmented_fixed文件夹中的SVG文件
+        输出到SVG_Segmented_line文件夹
         """
-        input_dir = "deal_svg"
-        output_dir = "deal_svg_line"
+        input_dir = "SVG_Segmented_fixed"
+        output_dir = "SVG_Segmented_line"
         
-        print("开始批量处理deal_svg文件...")
+        print("开始批量处理SVG_Segmented_fixed文件...")
         print(f"输入文件夹: {input_dir}")
         print(f"输出文件夹: {output_dir}")
         
@@ -400,15 +400,14 @@ def main():
     parser.add_argument("-r", "--recursive", action="store_true", help="递归处理子目录")
     parser.add_argument("--advanced", action="store_true", help="高级清理：移除未使用的定义")
     parser.add_argument("--batch", action="store_true", help="批量处理模式：处理SVG_OUTPUT文件夹中的所有SVG文件")
-    parser.add_argument("--beforecombine", action="store_true", help="处理beforecombine_svg文件夹中的所有SVG文件")
-    
+    parser.add_argument("--Segmented", action="store_true", help="处理SVG_Segmented_fixed文件夹中的所有SVG文件")    
     args = parser.parse_args()
     
     cleaner = SVGCleaner()
     
-    # 处理beforecombine_svg文件夹
-    if args.beforecombine:
-        print("使用beforecombine处理模式...")
+    # 处理SVG_Segmented_fixed文件夹
+    if args.Segmented:
+        print("使用SVG_Segmented_fixed处理模式...")
         cleaner.batch_process_beforecombine_svg()
         return
     

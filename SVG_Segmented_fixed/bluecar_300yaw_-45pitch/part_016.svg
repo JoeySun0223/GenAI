@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" version="1.1" width="512" height="512">
+<ns0:path d="M0 0 C1.32 0.33 2.64 0.66 4 1 C4.11 1.918 4.219 2.836 4.332 3.781 C6.547 20.928 13.215 33.907 27 45 C30.878 47.175 34.772 48.653 39 50 C39.891 50.327 40.781 50.655 41.699 50.992 C48.638 53.394 53.931 53.062 61 51 C61 54 61 54 58.84 56.375 C50.772 63.672 45.434 67.682 34.117 67.344 C21.189 65.918 10.216 57.719 2 48 C-4.46 39.32 -9.899 29.593 -9.387 18.48 C-8.239 11.119 -5.07 5.351 0 0 Z " fill="#24292F" transform="translate(266,337)" />
+<ns0:path d="" fill="#1A1D23" transform="translate(0,0)" />
+<ns0:path d="" fill="#21262C" transform="translate(0,0)" />
+<ns0:path d="" fill="#0E1013" transform="translate(0,0)" />
+<ns0:path d="" fill="#020202" transform="translate(0,0)" />
+<ns0:path d="" fill="#08090A" transform="translate(0,0)" />
+<ns0:path d="" fill="#08090A" transform="translate(0,0)" />
+<ns0:path d="" fill="#0C0D10" transform="translate(0,0)" />
+</ns0:svg>

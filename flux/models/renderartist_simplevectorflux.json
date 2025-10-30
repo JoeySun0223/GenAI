@@ -1,0 +1,59 @@
+{
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.6",
+    "serialNumber": "urn:uuid:36ba7488-06f4-490d-9231-4fe7d5641554",
+    "version": 1,
+    "metadata": {
+        "timestamp": "2025-06-05T09:42:09.455907+00:00",
+        "component": {
+            "type": "machine-learning-model",
+            "bom-ref": "renderartist/simplevectorflux-e0c6eafc-2c9a-5ad1-8516-a7bf90b41353",
+            "name": "renderartist/simplevectorflux",
+            "externalReferences": [
+                {
+                    "url": "https://huggingface.co/renderartist/simplevectorflux",
+                    "type": "documentation"
+                }
+            ],
+            "modelCard": {
+                "modelParameters": {
+                    "task": "text-to-image"
+                },
+                "properties": [
+                    {
+                        "name": "library_name",
+                        "value": "diffusers"
+                    },
+                    {
+                        "name": "base_model",
+                        "value": "black-forest-labs/FLUX.1-dev"
+                    }
+                ]
+            },
+            "authors": [
+                {
+                    "name": "renderartist"
+                }
+            ],
+            "licenses": [
+                {
+                    "license": {
+                        "name": "creativeml-openrail-m"
+                    }
+                }
+            ],
+            "description": "Simple Vector Flux was trained on a curated dataset of ~50 synthetic images in classic vector style, 17 epochs, 2 repeats, ~1700 steps.This is a work in progress and it can be a little temperamental, the captioning was done using Joy Caption Batch with the trigger &quot;v3ct0r&quot; and &quot;vector&quot; in the prefix of the captions.You have to work a little bit to get desired results and sometimes there is bleeding&#x2F;blending of subjects but overall the style is present and the results can be really good. This LoRA takes a couple of tries adjusting your prompt and adding tokens to match the style.",
+            "tags": [
+                "diffusers",
+                "text-to-image",
+                "stable-diffusion",
+                "lora",
+                "template:sd-lora",
+                "base_model:black-forest-labs/FLUX.1-dev",
+                "base_model:adapter:black-forest-labs/FLUX.1-dev",
+                "license:creativeml-openrail-m",
+                "region:us"
+            ]
+        }
+    }
+}

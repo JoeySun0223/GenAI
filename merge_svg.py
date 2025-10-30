@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 SVG合并器
-- 批量处理 deal_svg 下所有子文件夹的SVG文件
+- 批量处理 SVG_Segmented_fixed 下所有子文件夹的SVG文件
 - 按路径面积排序合并，面积大的在底层
 - 输出到 SVG_OUTPUT 目录
 """
@@ -165,16 +165,16 @@ def main():
     os.makedirs("SVG_OUTPUT", exist_ok=True)
     
     print("开始SVG合并...")
-    print(f"输入目录: deal_svg")
+    print(f"输入目录: SVG_Segmented_fixed")
     print(f"输出目录: SVG_OUTPUT")
     
     # 检查输入目录是否存在
-    if not os.path.exists("deal_svg"):
-        print(f"错误: 输入目录 deal_svg 不存在")
-        print("请先运行 png_to_svg.py 生成SVG文件，或确保 deal_svg 目录存在")
+    if not os.path.exists("SVG_Segmented_fixed"):
+        print(f"错误: 输入目录 SVG_Segmented_fixed 不存在")
+        print("请先运行 png_to_svg.py 生成SVG文件，或确保 SVG_Segmented_fixed 目录存在")
         return
     
-    process_directory("deal_svg", "SVG_OUTPUT")
+    process_directory("SVG_Segmented_fixed", "SVG_OUTPUT")
     
     print(f"\n合并完成！结果保存在: SVG_OUTPUT")
 

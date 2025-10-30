@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generator: visioncortex VTracer 0.6.4 -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="512" height="512">
+<path d="M0 0 C2.416 2.335 4.323 4.467 6.25 7.25 C8.825 10.386 8.825 10.386 12.938 10.5 C16.507 10.324 19.646 9.183 23 8 C23.054 10.083 23.093 12.166 23.125 14.25 C23.148 15.41 23.171 16.57 23.195 17.766 C23.007 20.89 22.852 22.512 21 25 C19.012 26.117 19.012 26.117 16.688 26.875 C15.928 27.141 15.169 27.406 14.387 27.68 C11.244 28.101 9.755 27.556 7 26 C5.016 23.723 5.016 23.723 3.25 21.062 C2.657 20.187 2.064 19.312 1.453 18.41 C-1.135 14.117 -0.999 11.208 -0.562 6.312 C-0.461 5.133 -0.359 3.954 -0.254 2.738 C-0.17 1.835 -0.086 0.931 0 0 Z " fill="#E29A09" transform="translate(271,409)"/>
+<path d="" fill="#ADAFB0" transform="translate(0,0)"/>
+<path d="" fill="#B2B4B5" transform="translate(0,0)"/>
+<path d="" fill="#979A9E" transform="translate(0,0)"/>
+<path d="" fill="#5B88BB" transform="translate(0,0)"/>
+<path d="" fill="#9F7708" transform="translate(0,0)"/>
+<path d="" fill="#3C7FCB" transform="translate(0,0)"/>
+</svg>

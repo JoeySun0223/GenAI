@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" version="1.1" width="512" height="512">
+<ns0:path d="M0 0 C5.75 0.75 5.75 0.75 8 3 C2.25 2.25 2.25 2.25 0 0 Z " fill="#000912" transform="translate(208,336)" />
+<ns0:path d="M0 0 C2.97 0.495 2.97 0.495 6 1 C5.01 1.33 4.02 1.66 3 2 C2.01 1.34 1.02 0.68 0 0 Z " fill="#000C19" transform="translate(193,331)" />
+<ns0:path d="M0 0 C2.475 0.495 2.475 0.495 5 1 C4.01 1.33 3.02 1.66 2 2 C1.34 1.34 0.68 0.68 0 0 Z " fill="#000811" transform="translate(245,349)" />
+<ns0:path d="M0 0 C2.475 0.495 2.475 0.495 5 1 C4.01 1.33 3.02 1.66 2 2 C1.34 1.34 0.68 0.68 0 0 Z " fill="#00070F" transform="translate(228,343)" />
+<ns0:path d="M0 0 C3 1 3 1 3 1 Z " fill="#000810" transform="translate(253,352)" />
+<ns0:path d="M0 0 C3 1 3 1 3 1 Z " fill="#000B17" transform="translate(250,351)" />
+<ns0:path d="M0 0 C3 1 3 1 3 1 Z " fill="#00050A" transform="translate(242,348)" />
+<ns0:path d="M0 0 C3 1 3 1 3 1 Z " fill="#00060D" transform="translate(239,347)" />
+<ns0:path d="M0 0 C3 1 3 1 3 1 Z " fill="#000912" transform="translate(236,346)" />
+<ns0:path d="M0 0 C3 1 3 1 3 1 Z " fill="#000A15" transform="translate(233,345)" />
+<ns0:path d="M0 0 C3 1 3 1 3 1 Z " fill="#00040A" transform="translate(225,342)" />
+<ns0:path d="M0 0 C3 1 3 1 3 1 Z " fill="#00060E" transform="translate(222,341)" />
+<ns0:path d="M0 0 C3 1 3 1 3 1 Z " fill="#000B17" transform="translate(219,340)" />
+<ns0:path d="M0 0 C3 1 3 1 3 1 Z " fill="#000A14" transform="translate(216,339)" />
+<ns0:path d="M0 0 C3 1 3 1 3 1 Z " fill="#00060D" transform="translate(205,335)" />
+<ns0:path d="M0 0 C3 1 3 1 3 1 Z " fill="#00050C" transform="translate(202,334)" />
+<ns0:path d="M0 0 C3 1 3 1 3 1 Z " fill="#00070F" transform="translate(199,333)" />
+<ns0:path d="M0 0 C3 1 3 1 3 1 Z " fill="#001021" transform="translate(190,330)" />
+<ns0:path d="M0 0 C2 1 2 1 2 1 Z " fill="#000F1E" transform="translate(258,354)" />
+<ns0:path d="M0 0 C2 1 2 1 2 1 Z " fill="#000811" transform="translate(256,353)" />
+<ns0:path d="" fill="#000105" transform="translate(0,0)" />
+</ns0:svg>

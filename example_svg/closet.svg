@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+	 viewBox="0 0 496 496" xml:space="preserve">
+<rect x="64" style="fill:#512E04;" width="368" height="456"/>
+<polyline style="fill:#331B00;" points="64,0 432,0 432,456 "/>
+<rect x="96" y="40" style="fill:#AF8F6D;" width="304" height="384"/>
+<polyline style="fill:#9B7A5D;" points="96,40 400,40 400,424 "/>
+<g>
+	<rect x="120" y="200" style="fill:#512E04;" width="88" height="8"/>
+	<rect x="120" y="216" style="fill:#512E04;" width="88" height="8"/>
+	<rect x="120" y="232" style="fill:#512E04;" width="88" height="8"/>
+	<rect x="120" y="248" style="fill:#512E04;" width="88" height="8"/>
+	<rect x="288" y="200" style="fill:#512E04;" width="88" height="8"/>
+	<rect x="288" y="216" style="fill:#512E04;" width="88" height="8"/>
+	<rect x="288" y="232" style="fill:#512E04;" width="88" height="8"/>
+	<rect x="288" y="248" style="fill:#512E04;" width="88" height="8"/>
+</g>
+<g>
+	<polygon style="fill:#9B7A5D;" points="340.8,416 216,291.2 194.4,312.8 298.4,416 	"/>
+	<polygon style="fill:#9B7A5D;" points="392,382.4 302.4,291.2 282.4,312.8 386.4,416 400,416 	"/>
+</g>
+<circle style="fill:#FFCD50;" cx="204.8" cy="300" r="15.2"/>
+<path style="fill:#F7AF48;" d="M215.2,288.8c6.4,6.4,6.4,16,0,21.6c-6.4,6.4-16,6.4-21.6,0"/>
+<circle style="fill:#FFCD50;" cx="291.2" cy="300" r="15.2"/>
+<path style="fill:#F7AF48;" d="M302.4,288.8c6.4,6.4,6.4,16,0,21.6c-6.4,6.4-16,6.4-21.6,0"/>
+<rect x="240" y="24" style="fill:#512E04;" width="16" height="416"/>
+<rect x="72" y="456" style="fill:#331B00;" width="32" height="24"/>
+<path style="fill:#512E04;" d="M113.6,488c0,3.2-2.4,8-5.6,8H68c-3.2,0-5.6-4.8-5.6-8l0,0c0-3.2,2.4-8,5.6-8h40
+	C111.2,480,113.6,484.8,113.6,488L113.6,488z"/>
+<rect x="392" y="456" style="fill:#331B00;" width="32" height="24"/>
+<path style="fill:#512E04;" d="M433.6,488c0,3.2-2.4,8-5.6,8h-40c-3.2,0-5.6-4.8-5.6-8l0,0c0-3.2,2.4-8,5.6-8h40
+	C431.2,480,433.6,484.8,433.6,488L433.6,488z"/>
+</svg>

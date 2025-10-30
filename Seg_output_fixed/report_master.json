@@ -1,0 +1,234 @@
+{
+  "settings": {
+    "alpha_thr": 0.5,
+    "lcc_min": 0.5,
+    "max_comp": 50,
+    "tiny_ratio": 0.001,
+    "max_size": 512,
+    "exts": ".png,.jpg,.jpeg,.webp"
+  },
+  "summary": {
+    "dirs": 36,
+    "files": 928,
+    "kept": 898,
+    "dropped": 30
+  },
+  "details": [
+    {
+      "dir": "bluecar_120yaw_+45pitch",
+      "files": 27,
+      "kept": 27,
+      "dropped": 0
+    },
+    {
+      "dir": "bluecar_240yaw_+45pitch",
+      "files": 28,
+      "kept": 27,
+      "dropped": 1
+    },
+    {
+      "dir": "bluecar_060yaw_-45pitch",
+      "files": 22,
+      "kept": 22,
+      "dropped": 0
+    },
+    {
+      "dir": "bluecar_150yaw_-45pitch",
+      "files": 24,
+      "kept": 24,
+      "dropped": 0
+    },
+    {
+      "dir": "bluecar_150yaw_+45pitch",
+      "files": 26,
+      "kept": 25,
+      "dropped": 1
+    },
+    {
+      "dir": "bluecar_240yaw_-45pitch",
+      "files": 25,
+      "kept": 24,
+      "dropped": 1
+    },
+    {
+      "dir": "bluecar_030deg",
+      "files": 29,
+      "kept": 28,
+      "dropped": 1
+    },
+    {
+      "dir": "bluecar_300yaw_+45pitch",
+      "files": 26,
+      "kept": 26,
+      "dropped": 0
+    },
+    {
+      "dir": "bluecar_270deg",
+      "files": 29,
+      "kept": 27,
+      "dropped": 2
+    },
+    {
+      "dir": "bluecar_090yaw_+45pitch",
+      "files": 27,
+      "kept": 27,
+      "dropped": 0
+    },
+    {
+      "dir": "bluecar_240deg",
+      "files": 34,
+      "kept": 33,
+      "dropped": 1
+    },
+    {
+      "dir": "bluecar_000yaw_+45pitch",
+      "files": 12,
+      "kept": 11,
+      "dropped": 1
+    },
+    {
+      "dir": "bluecar_330deg",
+      "files": 31,
+      "kept": 29,
+      "dropped": 2
+    },
+    {
+      "dir": "bluecar_090deg",
+      "files": 30,
+      "kept": 29,
+      "dropped": 1
+    },
+    {
+      "dir": "bluecar_300deg",
+      "files": 31,
+      "kept": 29,
+      "dropped": 2
+    },
+    {
+      "dir": "bluecar_120yaw_-45pitch",
+      "files": 24,
+      "kept": 24,
+      "dropped": 0
+    },
+    {
+      "dir": "bluecar_210yaw_+45pitch",
+      "files": 27,
+      "kept": 26,
+      "dropped": 1
+    },
+    {
+      "dir": "bluecar_180yaw_+45pitch",
+      "files": 15,
+      "kept": 14,
+      "dropped": 1
+    },
+    {
+      "dir": "bluecar_030yaw_+45pitch",
+      "files": 28,
+      "kept": 25,
+      "dropped": 3
+    },
+    {
+      "dir": "bluecar_210yaw_-45pitch",
+      "files": 23,
+      "kept": 23,
+      "dropped": 0
+    },
+    {
+      "dir": "bluecar_180deg",
+      "files": 24,
+      "kept": 23,
+      "dropped": 1
+    },
+    {
+      "dir": "bluecar_000yaw_-45pitch",
+      "files": 14,
+      "kept": 14,
+      "dropped": 0
+    },
+    {
+      "dir": "bluecar_330yaw_+45pitch",
+      "files": 26,
+      "kept": 26,
+      "dropped": 0
+    },
+    {
+      "dir": "bluecar_180yaw_-45pitch",
+      "files": 19,
+      "kept": 18,
+      "dropped": 1
+    },
+    {
+      "dir": "bluecar_090yaw_-45pitch",
+      "files": 25,
+      "kept": 24,
+      "dropped": 1
+    },
+    {
+      "dir": "bluecar_330yaw_-45pitch",
+      "files": 23,
+      "kept": 23,
+      "dropped": 0
+    },
+    {
+      "dir": "bluecar_270yaw_-45pitch",
+      "files": 24,
+      "kept": 23,
+      "dropped": 1
+    },
+    {
+      "dir": "bluecar_060deg",
+      "files": 31,
+      "kept": 30,
+      "dropped": 1
+    },
+    {
+      "dir": "bluecar_000deg",
+      "files": 15,
+      "kept": 14,
+      "dropped": 1
+    },
+    {
+      "dir": "bluecar_210deg",
+      "files": 36,
+      "kept": 34,
+      "dropped": 2
+    },
+    {
+      "dir": "bluecar_030yaw_-45pitch",
+      "files": 24,
+      "kept": 23,
+      "dropped": 1
+    },
+    {
+      "dir": "bluecar_120deg",
+      "files": 36,
+      "kept": 36,
+      "dropped": 0
+    },
+    {
+      "dir": "bluecar_060yaw_+45pitch",
+      "files": 27,
+      "kept": 27,
+      "dropped": 0
+    },
+    {
+      "dir": "bluecar_300yaw_-45pitch",
+      "files": 24,
+      "kept": 23,
+      "dropped": 1
+    },
+    {
+      "dir": "bluecar_270yaw_+45pitch",
+      "files": 26,
+      "kept": 26,
+      "dropped": 0
+    },
+    {
+      "dir": "bluecar_150deg",
+      "files": 36,
+      "kept": 34,
+      "dropped": 2
+    }
+  ]
+}

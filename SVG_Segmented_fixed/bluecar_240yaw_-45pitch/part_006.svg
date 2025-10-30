@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" version="1.1" width="512" height="512">
+<ns0:path d="M0 0 C-1.766 0.699 -3.538 1.384 -5.312 2.062 C-6.792 2.637 -6.792 2.637 -8.301 3.223 C-11 4 -11 4 -14 3 C-12.234 2.301 -10.462 1.616 -8.688 0.938 C-7.208 0.363 -7.208 0.363 -5.699 -0.223 C-3 -1 -3 -1 0 0 Z " fill="#000A15" transform="translate(284,344)" />
+<ns0:path d="M0 0 C-1.266 0.532 -2.538 1.05 -3.812 1.562 C-4.52 1.853 -5.228 2.143 -5.957 2.441 C-8 3 -8 3 -11 2 C-9.734 1.468 -8.462 0.95 -7.188 0.438 C-6.48 0.147 -5.772 -0.143 -5.043 -0.441 C-3 -1 -3 -1 0 0 Z " fill="#000A15" transform="translate(264,351)" />
+<ns0:path d="M0 0 C-2.97 0.66 -5.94 1.32 -9 2 C-5.767 -1.233 -4.451 -1.113 0 0 Z " fill="#000B16" transform="translate(319,332)" />
+<ns0:path d="M0 0 C-4.625 2.125 -4.625 2.125 -8 1 C-3.375 -1.125 -3.375 -1.125 0 0 Z " fill="#000A15" transform="translate(301,338)" />
+<ns0:path d="M0 0 C3 1 3 1 3 1 Z " fill="#000913" transform="translate(264,349)" />
+<ns0:path d="M0 0 C3 1 3 1 3 1 Z " fill="#000913" transform="translate(267,348)" />
+<ns0:path d="M0 0 C3 1 3 1 3 1 Z " fill="#000810" transform="translate(284,342)" />
+<ns0:path d="M0 0 C3 1 3 1 3 1 Z " fill="#00070E" transform="translate(301,336)" />
+<ns0:path d="M0 0 C3 1 3 1 3 1 Z " fill="#000812" transform="translate(304,335)" />
+<ns0:path d="M0 0 C3 1 3 1 3 1 Z " fill="#000B16" transform="translate(307,334)" />
+<ns0:path d="M0 0 C3 1 3 1 3 1 Z " fill="#000E1D" transform="translate(319,330)" />
+</ns0:svg>

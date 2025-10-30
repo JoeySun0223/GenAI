@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+<svg width="800px" height="800px" viewBox="0 -4.08 77.78 77.78" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.499" y1="0.503" x2="0.493" y2="0.06" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f9a973"/>
+      <stop offset="1" stop-color="#e28b3d"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" y1="0.307" x2="0.5" y2="0.675" xlink:href="#linear-gradient"/>
+  </defs>
+  <g id="bread_toaster" data-name="bread toaster" transform="translate(-866.123 -1574.558)">
+    <path id="Path_348" data-name="Path 348" d="M924.82,1574.558H877.643a4.49,4.49,0,0,0-4.478,4.478v28.838H929.3v-28.838A4.49,4.49,0,0,0,924.82,1574.558Z" fill="url(#linear-gradient)"/>
+    <path id="Path_349" data-name="Path 349" d="M921.719,1577.833H880.744a3.769,3.769,0,0,0-3.9,3.6V1604.6h48.767v-23.168A3.765,3.765,0,0,0,921.719,1577.833Z" fill="url(#linear-gradient-2)"/>
+    <rect id="Rectangle_33" data-name="Rectangle 33" width="70.566" height="8.268" transform="translate(866.123 1632.22)" fill="#163844"/>
+    <path id="Path_350" data-name="Path 350" d="M931.06,1590.335H871.753a5.649,5.649,0,0,0-5.63,5.631v36.254h70.566v-36.254A5.648,5.648,0,0,0,931.06,1590.335Z" fill="#f4f4f4"/>
+    <path id="Path_351" data-name="Path 351" d="M872.018,1644.183h9.68v-3.7h-9.68Zm49.1-3.7v3.7H930.8v-3.7Z"/>
+    <path id="Path_352" data-name="Path 352" d="M941.091,1600.19h-4.4v8.274h4.4a2.826,2.826,0,0,0,2.812-2.816v-2.639A2.828,2.828,0,0,0,941.091,1600.19Z" fill="#163844"/>
+  </g>
+</svg>

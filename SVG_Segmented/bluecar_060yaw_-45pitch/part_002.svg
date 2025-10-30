@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generator: visioncortex VTracer 0.6.4 -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="512" height="512">
+<path d="M0 0 C-4.625 2.125 -4.625 2.125 -8 1 C-3.375 -1.125 -3.375 -1.125 0 0 Z " fill="#000912" transform="translate(304,337)"/>
+<path d="M0 0 C0.99 0.33 1.98 0.66 3 1 C1.35 1.33 -0.3 1.66 -2 2 C-1.34 1.34 -0.68 0.68 0 0 Z " fill="#000A16" transform="translate(264,349)"/>
+<path d="M0 0 C0.99 0.33 1.98 0.66 3 1 C1.35 1.33 -0.3 1.66 -2 2 C-1.34 1.34 -0.68 0.68 0 0 Z " fill="#00070F" transform="translate(281,343)"/>
+<path d="M0 0 C3 1 3 1 3 1 Z " fill="#00060E" transform="translate(267,348)"/>
+<path d="M0 0 C3 1 3 1 3 1 Z " fill="#00060D" transform="translate(270,347)"/>
+<path d="M0 0 C3 1 3 1 3 1 Z " fill="#00060D" transform="translate(273,346)"/>
+<path d="M0 0 C3 1 3 1 3 1 Z " fill="#000A15" transform="translate(276,345)"/>
+<path d="M0 0 C3 1 3 1 3 1 Z " fill="#00050B" transform="translate(284,342)"/>
+<path d="M0 0 C3 1 3 1 3 1 Z " fill="#00060C" transform="translate(287,341)"/>
+<path d="M0 0 C3 1 3 1 3 1 Z " fill="#000A14" transform="translate(290,340)"/>
+<path d="M0 0 C3 1 3 1 3 1 Z " fill="#000A15" transform="translate(293,339)"/>
+<path d="M0 0 C3 1 3 1 3 1 Z " fill="#00060C" transform="translate(304,335)"/>
+<path d="M0 0 C3 1 3 1 3 1 Z " fill="#000810" transform="translate(307,334)"/>
+<path d="M0 0 C3 1 3 1 3 1 Z " fill="#000811" transform="translate(310,333)"/>
+<path d="M0 0 C3 1 3 1 3 1 Z " fill="#000912" transform="translate(313,332)"/>
+<path d="M0 0 C3 1 3 1 3 1 Z " fill="#000B16" transform="translate(316,331)"/>
+<path d="M0 0 C3 1 3 1 3 1 Z " fill="#00070F" transform="translate(321,329)"/>
+<path d="M0 0 C3 1 3 1 3 1 Z " fill="#00060C" transform="translate(324,328)"/>
+<path d="M0 0 C3 1 3 1 3 1 Z " fill="#000A14" transform="translate(327,327)"/>
+<path d="M0 0 C3 1 3 1 3 1 Z " fill="#000409" transform="translate(330,326)"/>
+<path d="M0 0 C2 1 2 1 2 1 Z " fill="#00060D" transform="translate(319,330)"/>
+</svg>

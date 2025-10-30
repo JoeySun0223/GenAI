@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" version="1.1" width="512" height="512">
+<ns0:path d="M0 0 C9.9 0 19.8 0 30 0 C30 0.33 30 0.66 30 1 C19.824 2.034 10.164 1.858 0 1 C0 0.67 0 0.34 0 0 Z " fill="#094D9A" transform="translate(212,233)" />
+<ns0:path d="M0 0 C0.33 0 0.66 0 1 0 C1 2.64 1 5.28 1 8 C0.67 8 0.34 8 0 8 C0 5.36 0 2.72 0 0 Z " fill="#123767" transform="translate(247,205)" />
+<ns0:path d="M0 0 C0.33 0 0.66 0 1 0 C1 1.98 1 3.96 1 6 C0.67 6 0.34 6 0 6 C0 4.02 0 2.04 0 0 Z " fill="#13325C" transform="translate(247,198)" />
+<ns0:path d="M0 0 C1 4 1 4 1 4 Z " fill="#103268" transform="translate(186,213)" />
+<ns0:path d="" fill="#0C4182" transform="translate(0,0)" />
+<ns0:path d="M0 0 C2 1 2 1 2 1 Z " fill="#07112E" transform="translate(229,188)" />
+<ns0:path d="" fill="#0071C8" transform="translate(0,0)" />
+<ns0:path d="" fill="#006CC4" transform="translate(0,0)" />
+<ns0:path d="" fill="#0074C5" transform="translate(0,0)" />
+<ns0:path d="" fill="#0076C8" transform="translate(0,0)" />
+<ns0:path d="" fill="#0F4384" transform="translate(0,0)" />
+<ns0:path d="" fill="#16305B" transform="translate(0,0)" />
+<ns0:path d="" fill="#163767" transform="translate(0,0)" />
+<ns0:path d="" fill="#0A2248" transform="translate(0,0)" />
+<ns0:path d="" fill="#040F2E" transform="translate(0,0)" />
+<ns0:path d="" fill="#040F2F" transform="translate(0,0)" />
+</ns0:svg>
